@@ -1,0 +1,13 @@
+body{ font-family: Arial, sans-serif; background:#f5f7fb; }
+.container{ max-width:900px; margin:30px auto; padding:20px; background:white; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+.nav button{ margin-right:8px; padding:8px 12px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+.nav button:hover{ box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+.content{ margin-top:20px; }
+.inputRow{ margin-bottom:12px; }
+.inputRow input{ padding:8px; width:100%; box-sizing:border-box; border-radius:6px; border:1px solid #ddd; }
+.message{ padding:10px; background:#eef; border-radius:6px; margin-bottom:12px; }
+.small{ font-size:13px; color:#444; }
+.btn{ padding:10px 14px; border:none; background:#0066cc; color:white; border-radius:6px; cursor:pointer; }
+.btn:disabled{ background:#9bbde6; cursor:not-allowed; }
+.table{ width:100%; border-collapse:collapse; }
+.table th, .table td{ border:1px solid #eee; padding:8px; text-align:left; }
