@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Money Transfer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-5">
+<h2>Money Transfer (Demo - Dummy OTP)</h2>
+<p>Sample users created at startup: <strong>saurabh@example.com</strong> (10000), <strong>ravi@example.com</strong> (5000)</p>
+<form action="/generate-otp" method="post">
+    <div class="mb-3">
+        <label>Sender Email</label>
+        <input type="email" name="senderEmail" class="form-control" placeholder="sender email" required>
+    </div>
+    <div class="mb-3">
+        <label>Receiver Email</label>
+        <input type="email" name="receiverEmail" class="form-control" placeholder="receiver email" required>
+    </div>
+    <div class="mb-3">
+        <label>Amount</label>
+        <input type="number" step="0.01" name="amount" class="form-control" placeholder="amount" required>
+    </div>
+    <button class="btn btn-primary">Generate OTP</button>
+</form>
+</body>
+</html>
